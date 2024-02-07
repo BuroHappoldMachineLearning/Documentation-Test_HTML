@@ -14,3 +14,7 @@
     "route": "/custom/*",
     "allowedRoles": ["custom"]
 }
+{
+    "route": "/login",
+    "redirect": "/.auth/login/github"
+}
