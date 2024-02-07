@@ -1,1 +1,2 @@
 <a href=“/.auth/login/github”>Login</a>
+<a href=“/.auth/login/github?post_login_redirect_uri=https://yourapp.com/success”>Login</a>
