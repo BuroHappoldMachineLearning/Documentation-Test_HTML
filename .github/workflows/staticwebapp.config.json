@@ -3,18 +3,10 @@
     "identityProviders": {
       "github": {
         "registration": {
-          "clientIdSettingName": "10a49027cd7443745555",
-          "clientSecretSettingName": "0b05cc99330820c6afceec53a35f8f23faf89538"
+          "clientIdSettingName": "GITHUB_CLIENT_ID",
+          "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
         }
       }
     }
   }
-}
-{
-    "route": "/custom/*",
-    "allowedRoles": ["custom"]
-}
-{
-    "route": "/login",
-    "redirect": "/.auth/login/github"
 }
