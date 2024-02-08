@@ -10,3 +10,7 @@
     }
   }
 }
+{
+  "route": "/login",
+  "serve": "/.auth/login/aad"
+}
