@@ -3,8 +3,8 @@
     "identityProviders": {
       "github": {
         "registration": {
-          "clientIdSettingName": "10a49027cd7443745555",
-          "clientSecretSettingName": "191b0928166cc6d594f3e346372cba7b9ae3e7ca"
+          "clientIdSettingName": "GITHUB_CLIENT_ID",
+          "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
         }
       }
     }
