@@ -5,12 +5,10 @@
         "registration": {
           "clientIdSettingName": "GITHUB_CLIENT_ID",
           "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
-        }
+        },
+        "orgs": ["BuroHappoldMachineLearning"]
       }
     }
   }
 }
-{
-  "route": "/login",
-  "serve": "/.auth/login/aad"
-}
+
