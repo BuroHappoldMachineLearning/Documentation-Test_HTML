@@ -1,4 +1,16 @@
 {
+    "routes": [
+        {
+            "route": "/profile",
+            "allowedRoles": ["admin", "contributor"]
+        },
+        {
+            "route": "/dashboard",
+            "allowedRoles": ["admin"]
+        }
+    ]
+}
+{
   "auth": {
     "identityProviders": {
       "github": {
@@ -10,16 +22,4 @@
       }
     }
   }
-}
-{
-    "routes": [
-        {
-            "route": "/profile",
-            "allowedRoles": ["admin", "contributor"]
-        },
-        {
-            "route": "/dashboard",
-            "allowedRoles": ["admin"]
-        }
-    ]
 }
