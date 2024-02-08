@@ -12,16 +12,14 @@
   }
 }
 {
-  "routes": [
-    {
-      "route": "/api/*", // Example API route
-      "methods": ["GET", "POST"],
-      "rewrite": "/api/index.html"
-    },
-    {
-      "route": "/admin",
-      "methods": ["GET"],
-      "rewrite": "/admin.html"
-    }
-  ]
+    "routes": [
+        {
+            "route": "/profile",
+            "allowedRoles": ["admin", "contributor"]
+        },
+        {
+            "route": "/dashboard",
+            "allowedRoles": ["admin"]
+        }
+    ]
 }
