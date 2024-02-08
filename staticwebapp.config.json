@@ -2,24 +2,11 @@
     "routes": [
         {
             "route": "/profile",
-            "allowedRoles": ["admin", "contributor"]
+            "allowedRoles": ["admin", "contributor", "custom", "reader", "authenticated"]
         },
         {
             "route": "/dashboard",
             "allowedRoles": ["admin"]
         }
     ]
-}
-{
-  "auth": {
-    "identityProviders": {
-      "github": {
-        "registration": {
-          "clientIdSettingName": "f1b2643c367507f2bac4",
-          "clientSecretSettingName": "aac65bff28b8c6ac9542f6ae68cd438c42c64b4d"
-        },
-        "orgs": ["Testing authorisation"]
-      }
-    }
-  }
 }
