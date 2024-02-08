@@ -5,17 +5,9 @@
         "registration": {
           "clientIdSettingName": "10a49027cd7443745555",
           "clientSecretSettingName": "191b0928166cc6d594f3e346372cba7b9ae3e7ca"
-        },
-        "orgs": ["BuroHappoldMachineLearning"]
+        }
       }
     }
   }
 }
-{
-  "responseOverrides": {
-    "401": {
-      "redirect": "/.auth/login/github?post_login_redirect_uri=.referrer",
-      "statusCode": 302
-    }
-  }
-}
+
