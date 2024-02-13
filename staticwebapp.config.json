@@ -7,7 +7,10 @@
     {
       "route": "/logout",
       "redirect": "/.auth/logout"
+    },
+    {
+        "route": "/profile",
+        "allowedRoles": ["admin"]
     }
-    
     ]
 }
