@@ -16,6 +16,11 @@
       "route": "/login-failed",
       "statusCode": 302,
       "redirect": "/failed-login.html"
+    },
+    {
+      "route": "/.auth/login/github",
+      "statusCode": 302,
+      "redirect": "/.auth/login/github"
     }
   ],
   "auth": {
