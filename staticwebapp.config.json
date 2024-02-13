@@ -11,6 +11,11 @@
     {
         "route": "/profile",
         "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/login-failed",
+      "statusCode": 302,
+      "redirect": "/failed-login.html"
     }
     ]
 }
