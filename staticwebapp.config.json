@@ -9,8 +9,8 @@
       "redirect": "/.auth/logout"
     },
     {
-        "route": "/profile",
-        "allowedRoles": ["admin"]
+      "route": "/profile",
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/login-failed",
