@@ -1,16 +1,21 @@
 {
-  "route": "/login",
-  "redirect": "/.auth/login/github"
-}
-{
-  "route": "/logout",
-  "redirect": "/.auth/logout"
-}
-{
     "routes": [
+        {
+          "route": "/login-failed",
+          "statusCode": 302,
+          "redirect": "/failed-login.html"
+        },
+        {
+          "route": "/login",
+          "redirect": "/.auth/login/github"
+        },
         {
             "route": "/profile",
             "allowedRoles": ["admin"]
+        },
+        {
+          "route": "/logout",
+          "redirect": "/.auth/logout"
         }
     ]
 }
@@ -26,16 +31,6 @@
       }
     }
   }
-}
-{
-  "routes": [
-    {
-      "route": "/login-failed",
-      "statusCode": 302,
-      "redirect": "/failed-login.html"
-    },
-    // Other routes...
-  ]
 }
 
 
