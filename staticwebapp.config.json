@@ -18,6 +18,7 @@
       "redirect": "/failed-login.html"
     }
     ]
+}
   "auth": {
     "identityProviders": {
       "github": {
@@ -29,4 +30,3 @@
       }
     }
   }
-}
