@@ -35,6 +35,17 @@
     }
   }
 }
+{
+  "routes": [
+    {
+      "route": "/login-failed",
+      "statusCode": 302,
+      "redirect": "/failed-login.html"
+    },
+    // Other routes...
+  ]
+}
+
 
 
 
