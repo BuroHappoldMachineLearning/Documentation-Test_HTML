@@ -10,7 +10,7 @@
     "routes": [
         {
             "route": "/profile",
-            "allowedRoles": ["admin", "contributor", "custom", "reader", "authenticated"]
+            "allowedRoles": ["admin"]
         }
     ]
 }
