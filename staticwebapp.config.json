@@ -17,5 +17,16 @@
       "statusCode": 302,
       "redirect": "/failed-login.html"
     }
-    ]
+  ],
+  "auth": {
+    "identityProviders": {
+      "github": {
+        "registration": {
+          "clientIdSettingName": "f1b2643c367507f2bac4",
+          "clientSecretSettingName": "aac65bff28b8c6ac9542f6ae68cd438c42c64b4d"
+        },
+        "orgs": ["Testing authorisation"]
+      }
+    }
+  }
 }
